@@ -80,7 +80,7 @@
 
 }
 .button:hover{
-    background-image:linear-gradient(blue,lightblue);
+    background-image:linear-gradient(darkgreen,lightgreen);
     color: white;
 }
 .button1:hover{
