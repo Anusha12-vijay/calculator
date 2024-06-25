@@ -1,0 +1,134 @@
+#outer{
+    height:640px;
+    width:400px;
+    
+    
+    border-radius: 5%;
+    background-color: rgb(230, 172, 230);
+    margin-bottom: 40px;
+    margin-left: 550px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(241, 158, 241);
+    padding:2px;
+    /* display: flex; */
+    text-align: center;
+    
+    
+
+    
+    
+}
+#display{
+    height:25%;
+    width:100%;
+    overflow: hidden;
+    background-color:rgb(239, 232, 239);
+    display: inline-block;
+    text-align: right;
+   
+    
+    
+    /* padding:10px; */
+}
+#name{
+    font-size: x-large;
+    font-weight: 700;
+    padding:0;
+    margin:0;
+    
+}
+#lower{
+    border-radius: 3%;
+    height:70%;
+    width:100%;
+    background-color:rgb(230, 172, 230);
+    display:flex;
+    flex-wrap: wrap;
+    overflow:hidden;
+    justify-content:space-evenly;
+    
+    /* flex-direction: row;
+    align-items: center; */
+    padding:0;
+    margin:0;
+
+}
+.button{
+    border-radius: 5%;
+    height: calc(100% / 5 - 3px); 
+    /* Divide the container height by 5 rows */
+    width: calc(100% / 4 - 3px); 
+    /* Divide the container width by 4 columns */
+    /* padding:3px; */
+    border-width: 3px;
+    border-style: outset;
+    border-color: rgb(225, 76, 225);
+    align-content: center;
+    display:inline-block;
+    justify-content: end;
+    justify-self: end;
+    box-sizing: border-box;
+    margin:1px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    background-image:linear-gradient(rgb(235, 186, 235),white);
+
+
+}
+.button:hover{
+    background-image:linear-gradient(blue,lightblue);
+    color: white;
+}
+.button1:hover{
+    background-color: pink;
+    color: white;
+}
+
+.term {
+    font-size: x-large;
+    font-weight: bold;
+    /* margin-left: 35px; */
+    
+    
+
+
+}
+#text{
+    font-size: 75px;
+    font-weight: bold;
+    
+
+}
+.oper{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+
+}
+.button1{
+    border-radius: 5%;
+    height: calc(100% / 5 - 2.6px); 
+    /* Divide the container height by 5 rows */
+    width: calc(100% / 4 - 2.6px); 
+    /* Divide the container width by 4 columns */
+    /* padding:3px; */
+    border-width: 3px;
+    border-style: outset;
+    border-color: rgb(225, 76, 225);
+    align-content: center;
+    display:inline-block;
+    justify-content: end;
+    justify-self: end;
+    box-sizing: border-box;
+    margin:1px;
+    text-align: center;
+    background-image: linear-gradient(rgb(42, 5, 42),purple);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
